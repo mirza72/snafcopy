@@ -1,0 +1,90 @@
+.item1 {
+    position: absolute;
+    margin-left: 534px;
+    width: 26%;
+    top: 20px;
+}
+
+.item4 {
+    position: absolute;
+    left: -800px;
+    width: 26%;
+    bottom: 100px;
+}
+
+.item5 {
+    position: absolute;
+    left: -700px;
+    width: 26%;
+    bottom: 350px;
+}
+
+.item6 {
+    position: absolute;
+    left: -750px;
+    width: 26%;
+    bottom: 600px;
+}
+
+.item3 {
+    position: absolute;
+    left: 100px;
+    width: 26%;
+    bottom: 10px;
+}
+
+.item2 {
+    position: absolute;
+    left: 100px;
+    width: 26%;
+    bottom: 400px;
+}
+
+.shadow {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 1.2rem !important;
+}
+
+h1 {
+    background: -webkit-linear-gradient(#da4637, #f3b541, #a53595, #0e9acf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+}
+
+.c-lightgreen,
+.rainbow {
+    background: -webkit-linear-gradient(#da4637, #f3b541, #a53595, #0e9acf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.serv_app .amo_pic {
+    background: -webkit-linear-gradient(#da4637, #f3b541, #a53595, #0e9acf);
+    border-radius: 50%;
+}
+
+.rounded-image {
+    border-radius: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    video {
+        width: 300px;
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6 {
+        display: none;
+    }
+    .img300 {
+        width: 300px;
+    }
+}
